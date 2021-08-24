@@ -1,0 +1,18 @@
+
+.awesome_header {
+  text-align: center;
+  padding-top:  100px;
+}
+.awesome_subheader{
+  padding: 35px;
+  text-align: center;
+  opacity: .3;
+}
+.awesome_card{
+display:inline-block;
+margin: 10px 20px;
+text-align: center;
+}
+.awesome_card_text {
+width: 345px;
+}
