@@ -5,13 +5,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }*/
+.pricing{
+  max-width: 1170px;
+  margin: auto;
+}
  .pricing_header {
 text-align: center;
 padding-top:  100px;
 font-family: Raleway;
 font-size: 36px;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 line-height: 42px;
 letter-spacing: 0em;
 
@@ -24,7 +28,7 @@ opacity: .3;
 font-family: Open Sans;
 font-size: 14px;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 line-height: 19px;
 letter-spacing: 0em;
 
@@ -57,7 +61,7 @@ background-color: #333333;
  font-family: Open Sans;
 font-size: 20px;
 font-style: normal;
-font-weight: 700;
+font-weight: 700px;
 line-height: 27px;
 letter-spacing: 0em;
 text-align: center;
@@ -70,7 +74,7 @@ color: #FFFFFF;
  font-family: Raleway;
 font-size: 35px;
 font-style: normal;
-font-weight: 700;
+font-weight: 700px;
 line-height: 41px;
 letter-spacing: 0em;
 text-align: center;
@@ -83,7 +87,7 @@ color: #FFFFFF;
   font-family: Open Sans;
 font-size: 14px;
 font-style: normal;
-font-weight: 600;
+font-weight: 600px;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
@@ -105,7 +109,7 @@ background-color: white;
 font-family: Open Sans;
 font-size: 14px;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: center;

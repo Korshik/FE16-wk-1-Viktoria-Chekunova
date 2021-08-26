@@ -42,7 +42,7 @@ opacity: .3;
  
   color: #0c0101;
   text-align: center;
-  width: 200px;
+  width: 340px;
   height: 200px;
 }
 
@@ -56,12 +56,15 @@ opacity: .3;
     margin: 0 auto;
   }
 
-.awesome_card_text
-{font-family: Open Sans;
+.awesome_card_text{
+  font-family: Open Sans;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 19px;
   letter-spacing: 0em;
   text-align: center;
+  }
+  img{
+    padding: 5px 0px 0px 0px;
   }
