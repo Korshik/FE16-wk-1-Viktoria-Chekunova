@@ -1,6 +1,7 @@
 @import url("awesome.css");
 @import url("prices.css");
-
+@import url(customers.css);
+@import url(stylish.css);
 .container{
 background: #FFFFFF;
 max-width: 1170px;

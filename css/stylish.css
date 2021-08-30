@@ -1,0 +1,99 @@
+.stylish{
+  max-width: 1170px;
+  margin: auto;
+  padding-top: 300px;
+}
+.stylish_header{
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 4;
+}
+
+.stylish_subheader{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+padding: 35px;
+color: #FFFFFF;
+z-index: 4;
+}
+.stylish_container{
+position: relative;
+
+}
+.stylish_line{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 4;
+  border-bottom: 2px solid #FFFFFF;
+  width: 64px;
+  
+}
+.stylish_background{
+ position: relative; 
+ align-content: center;
+ 
+}
+.stylish_cover{
+  background: rgba(0, 0, 0, 0.55);
+  width: 1170px;
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 0;
+  right: 0px;
+  z-index: 3;
+  }
+
+.stylish_download{
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 0.6rem 1.6rem; 
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px; 
+  z-index: 4; 
+  font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+
+
+}
+
+  .profession{
+    opacity: .3;
+  }
