@@ -1,0 +1,21 @@
+.footer_cite{
+  margin: auto;
+  width: 1170px;
+  height:101px ;
+}
+.footer_container{
+  display: flex;
+  background: black;
+  flex-direction: row;
+  justify-content: center;
+text-align: center;
+}
+.footer_icons{
+  color: white;
+ 
+}
+
+.info{
+  
+  color: white;
+}

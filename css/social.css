@@ -1,0 +1,100 @@
+/* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}*/
+
+.media_container{
+  width: 100%;
+  background-color: #F8EFEF;
+  display: inline-flex;
+  height: 110px;
+  flex-direction: row;
+  
+  align-content: center;
+  }
+.media{
+  align-items:center;
+}
+  .social_header{
+    padding-top: 14px;
+    padding-left: 111px;
+    margin: 0%;
+  }
+.social_text{
+  display: inline-block;
+  padding-top: 0px;
+    padding-left: 110px;
+    padding-right: 0px;
+    opacity: .3;
+}
+.social_icons {
+  display: inline-block;
+  color: black;
+  width: 800px;
+  
+
+}
+
+    /* transition: all 0.5s ease;
+     transition-property: color, font-size;
+    transition-duration: 10s, 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); */
+    
+    .fa-facebook-f {
+      content: "/f39e";
+      font-family: Font Awesome 5 Brands;
+      font-weight: 600;
+      color: #a9a9a97a;
+      padding-left: 400px;
+      padding-right: 20px;
+      
+      
+    }
+    .fa-twitter{
+      content: "/f099";
+      font-family: Font Awesome 5 Brands;
+      font-weight: 600;
+      color: #a9a9a97a;
+      padding-right: 20px;
+
+    }
+    .fa-google-plus-g{
+      content: "/f0d5";
+      font-family: Font Awesome 5 Brands;
+      font-weight: 600;
+      color: #a9a9a97a;
+      padding-right: 20px;
+    
+    }
+    .fa-pinterest{
+      content: "/f0d2";
+      font-family: Font Awesome 5 Brands;
+      font-weight: 600;
+      color: #a9a9a97a;
+      padding-right: 20px;
+    }
+    .fa-instagram{
+      content: "/f16d";
+      font-family: Font Awesome 5 Brands;
+      font-weight: 600;
+      color: #a9a9a97a;
+      padding-right: 20px;
+      }
+    .fa-stumbleupon{
+      content: "/f1a4";
+      font-family: Font Awesome 5 Brands;
+      font-weight: 600;
+      color: #a9a9a97a;
+      padding-right: 20px;
+    }
+    .fa-wifi{
+      content: "/f1eb";
+      font-family: Font Awesome 5 Brands;
+      font-weight: 600;
+      color: #a9a9a97a;
+      padding-right: 20px;
+    }

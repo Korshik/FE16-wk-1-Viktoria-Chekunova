@@ -72,7 +72,7 @@ justify-content: space-around;
 }
 .jeremy_flex_item{
 width: 230px;
-margin-left: 40px
+margin-left: 40px;
 }
 .jeremy_img{
 float: left;
@@ -81,6 +81,7 @@ margin-right: 40px;
 
 }
 .name{
+  width: 100px;
 font-family: Open Sans;
 font-size: 20px;
 font-style: normal;
