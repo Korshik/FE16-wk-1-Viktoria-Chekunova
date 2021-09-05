@@ -1,0 +1,118 @@
+*/* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}*/
+.pricing{
+  max-width: 1170px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+}
+ .pricing_header {
+  text-align: center;
+  padding-top:  100px;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+  .pricing_subheader{
+padding: 35px;
+text-align: center;
+opacity: .3;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400px;
+line-height: 19px;
+letter-spacing: 0em;
+
+
+  }
+
+
+.pricing_container{
+  
+  display:inline-flex;
+  align-items: center;
+  justify-content:center;
+  
+}
+.flex_container {
+  margin: 10px 78px 10px 10px;
+  height: 440px;
+  width: 340px;
+  display: ruby-base;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.flex_item_1 {
+background-color: #333333;
+ margin: auto;
+ padding: 15px 144px 8px 144px;;
+ border: 1px solid #E5E5E5;
+ font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700px;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.flex_item_2{
+ background-color: #333333;
+ padding: 26px 135px 33px 144px;
+ border: 1px solid #E5E5E5;
+ font-family: Raleway;
+font-size: 35px;
+font-style: normal;
+font-weight: 700px;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.flex_item_3{
+  background-color: #333333;
+  padding: 17px 127px 14px 135px;
+  border: 1px solid #E5E5E5;
+  font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600px;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF80 ;
+ }
+ .list_pricing {
+   padding: 0px;
+  text-align: center;
+  background-color: #E5E5E5;
+  list-style-type: none;
+  
+ }
+ .list_item{
+width: 340px;
+height: 40px;
+margin: 4px 0px 4px 0px;
+color: #868788;
+background-color: white;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400px;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+ }

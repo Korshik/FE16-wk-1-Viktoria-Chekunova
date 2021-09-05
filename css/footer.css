@@ -1,0 +1,39 @@
+.footer_cite{
+  margin: auto;
+  width: 1170px;
+  height:101px ;
+  
+}
+.footer_container{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  background: black;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  align-content: center;
+text-align: center;
+width: 1170px;
+padding-top: 25px;
+
+}
+
+
+
+.info{
+  
+  color: white;
+  width: auto;
+  color: #FFFFFF80;
+}
+.footer_icons{
+  
+width: 470px;
+
+
+}
+.footer_item{
+ 
+width: auto;
+
+}
