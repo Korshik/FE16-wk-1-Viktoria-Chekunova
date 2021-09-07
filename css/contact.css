@@ -1,0 +1,85 @@
+.contact_container{
+  width: 1170px;
+  margin: auto;
+
+}
+.contact_info{
+  padding-bottom: 44px;
+}
+
+.contact_form_container{
+  padding-left: 30px;
+}
+.contact_header{
+  text-align: center;
+  padding-top:  100px;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+
+.contact_subheader{
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+padding: 35px;
+text-align: center;
+opacity: .3;
+}
+.contact_form_container{
+  width: 50%;
+  float: left;
+  align-self: center;
+}
+.sendbtn {
+ align-self: center;
+  text-align: center;
+  padding-top: 20px;
+  clear: both;
+}
+
+
+input[type=text], input[type=password], input[type=email]  {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #BDBDBD;
+  width: 478px ;
+  padding: 20px 0px 20px 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  text-align: left;
+}
+.full-sendbutton{
+  
+    text-align: center;
+    padding-top: 20px;
+    clear: both;
+}
+
+  .send_button {
+  width: 166px;
+  
+  box-sizing: border-box;
+    background-color: #EC7979;
+    
+    color: white;
+  
+
+    padding: 10px 20px;
+   
+    opacity: 0.9;
+}
+#message{
+padding: 20px;
+  width: 478px;
+  resize: none;
+	height: 235px;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+}

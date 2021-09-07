@@ -36,7 +36,7 @@ flex-direction: row;
 justify-content: space-around;
 }
 .flex_customers_item{
-text-align: center;
+text-align:center;
 width: 230px;
 height: 110px;
 padding-left: 25px;
@@ -48,26 +48,31 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
 
+
 }
 .border_flex_customers{
   width: 275px;
-  height: 125px;
+ position: relative;
   background-color:#E2E2E2;
   border-radius: 5%; 
-  padding-bottom: 16px;
+  padding-bottom: 20px;
   padding-left: 0px;  
 }
 .rectangle{
+  position: absolute;
   background: #E2E2E2; 
   width: 25px; 
   height: 25px;
   transform: rotate(45deg);
   margin-left: 45px; 
+  padding-bottom: 30px;
 }
 .jeremy_flex_container{
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+padding-top: 20px;
+padding-bottom: 20px;
 
 }
 .jeremy_flex_item{
@@ -99,4 +104,5 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: right;
+padding-bottom: 30px;
 }
