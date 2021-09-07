@@ -5,17 +5,9 @@
 @import url(header.css);
 @import url(social.css);
 @import url(footer.css);
-
-
-
-
-
-
-
-
-
-
-
+@import url(axure.css);
+@import url(axure-form.css);
+@import url(contact.css);
 .container{
 background: #FFFFFF;
 max-width: 1170px;
@@ -34,10 +26,11 @@ padding: 15px;
   border: 1px solid #D98943;
   border-radius: 50%;
   padding: 10px;
-  height: 40px;
-  width: 40px; 
+  height: 50px;
+  width: 50px; 
   background-position: center;
   margin: 0 auto;
+  padding: 8px 6px 5px 6px;
  }
  
  

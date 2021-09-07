@@ -1,12 +1,10 @@
 
 .social_media_container{
-  width: 100%;
+  width: 1170px;
 background-color: #F8EFEF;
-  height: 110px;
+ margin: 0 auto;
   
   }
-
-
   .social_header{
     width: 125px;
     padding-top: 14px;
@@ -24,11 +22,13 @@ background-color: #F8EFEF;
    
 }
 .social_media {
-  width: 685px;
  display: inline-flex;
-padding-left: 129px;
 float:right;
-justify-content: space-evenly;
+justify-content: space-around;
+
+
+
+
 }
 
     /* transition: all 0.5s ease;
