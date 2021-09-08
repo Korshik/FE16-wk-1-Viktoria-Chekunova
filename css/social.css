@@ -3,40 +3,33 @@
   width: 1170px;
 background-color: #F8EFEF;
  margin: 0 auto;
+ padding-left: 111px;
+ 
+ 
+ 
   
   }
   .social_header{
     width: 125px;
     padding-top: 14px;
-    padding-left: 111px;
     margin: 0%;
     width: 125px;
   }
 .social_subheader{
-  width: 365px;
   display: inline-block;
-  padding-top: 0px;
-    padding-left: 110px;
-    padding-right: 0px;
-    opacity: .3;
-   
+  opacity: .3;
+  height: 38px;
+width: 365px;
+left: 111px;
+top: 55px;
 }
 .social_media {
- display: inline-flex;
+ 
 float:right;
-justify-content: space-around;
-
-
-
-
+justify-content: space-around
 }
 
-    /* transition: all 0.5s ease;
-     transition-property: color, font-size;
-    transition-duration: 10s, 0.5s;
-    transition-delay: 0.5s;
-    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); */
-    
+  
     .fa-facebook-f {
       content: "/f39e";
       font-family: Font Awesome 5 Brands;

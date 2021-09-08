@@ -1,6 +1,6 @@
-.axure{
+.modern_axure{
   width: 1170px;
-  margin: auto;
+  margin:0 auto;
 }
 .axure_header{
   font-family: Roboto;
@@ -69,14 +69,14 @@ z-index: 4;
   .axure_background{
    position: relative; 
    align-content: center;
-   width: 1170px;
+   width: 100%;
   }
 
   
   .axure_download{
     position: absolute;
     top: 80%;
-    left: 11%;
+    left: 13%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;

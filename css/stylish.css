@@ -1,8 +1,5 @@
-.stylish{
-  max-width: 1170px;
-  margin: auto;
-  padding-top: 300px;
-}
+
+
 .stylish_header{
   font-family: Raleway;
   font-size: 36px;
@@ -37,6 +34,9 @@ color: #FFFFFF;
 z-index: 4;
 }
 .stylish_container{
+  top: 350px;
+  max-width: 1170px;
+  margin:0 auto;
 position: relative;
 
 }
@@ -66,9 +66,9 @@ position: relative;
   background: rgba(0, 0, 0, 0.55);
   width: 1170px;
   position: absolute;
-  top: 5px;
+  top: 0px;
   bottom: 5px;
-  left: 0;
+  left: 0px;
   right: 0px;
   z-index: 3;
   }
