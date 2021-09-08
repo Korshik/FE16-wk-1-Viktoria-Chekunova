@@ -20,31 +20,41 @@ flex-wrap: nowrap;
 align-self:center;
 top: 20px;
 width: auto;
-margin-right: 20px;
+
 }
-.menu a:hover {
-  border-bottom: 3px solid red;
-  
-}
+
 .menu_list {
-  padding-right: 10px;
+  padding-right: 40px;
   
-  background:black;
   }
   .menu_list li {
 
 display: inline-block;
 font-family: Open Sans;
-color: rgba(255, 255, 255, 0.7);
 font-size: 15px;
 font-style: normal;
 font-weight: 600;
 line-height: 20px;
 letter-spacing: 0em;
 text-align: center;
+padding-right: 20px;
+ }
+.menu_link:after {
+      content: "";
+      display: block;
+      border-bottom: 2px solid #EC7979;
+      width: 0%;
+      transition: width 0.7s;
+      
   }
-a {
+  
+.menu_link {
   color:rgba(255, 255, 255, 0.7);
   text-decoration:none;
   margin: 0 20px;
     }
+   
+  
+.menu_link:hover:after {
+    width: 100%;
+}

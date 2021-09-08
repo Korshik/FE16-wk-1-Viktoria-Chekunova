@@ -37,7 +37,7 @@ letter-spacing: 0em;
 
 
 .pricing_container{
-  
+  width: 100%;
   display:inline-flex;
   align-items: center;
   justify-content:center;
@@ -45,7 +45,6 @@ letter-spacing: 0em;
 }
 .flex_container {
   margin: 10px 78px 10px 10px;
-  height: 440px;
   width: 340px;
   display: ruby-base;
   flex-direction: row;

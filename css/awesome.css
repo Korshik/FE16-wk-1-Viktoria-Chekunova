@@ -23,12 +23,11 @@ opacity: .3;
 }
 .awesome{
   max-width: 1170px;
-  margin: auto;
+  margin:0 auto;
 
 }
 .awesome_flex{
   
-  height: 300px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -39,11 +38,10 @@ opacity: .3;
 }
 
 .flex_item {
- 
   color: #0c0101;
   text-align: center;
   width: 340px;
-  height: 200px;
+ 
 }
 
   
@@ -58,5 +56,17 @@ opacity: .3;
   text-align: center;
   }
   img{
-    padding: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
+  
+  .border_img{
+    border: 1px solid #D98943;
+    border-radius: 50%;
+    padding: 10px;
+    height: 50px;
+    width: 50px; 
+    background-position: center;
+    margin: 0 auto;
+    padding: 8px 6px 5px 6px;
+   }
+   
