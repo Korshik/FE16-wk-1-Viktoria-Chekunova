@@ -5,15 +5,13 @@
   box-sizing: border-box;
   text-decoration: none;
 }*/
-.pricing{
+.container{
   max-width: 1170px;
   margin: auto;
-  top: 50%;
-  left: 50%;
 }
  .pricing_header {
   text-align: center;
-  padding-top:  100px;
+  padding-top:  6.25rem;
   font-family: Raleway;
   font-size: 36px;
   font-style: normal;
@@ -21,8 +19,8 @@
   line-height: 42px;
   letter-spacing: 0em;
 }
-  .pricing_subheader{
-padding: 35px;
+.pricing_subheader{
+padding: 2.188rem;
 text-align: center;
 opacity: .3;
 font-family: Open Sans;
@@ -31,33 +29,29 @@ font-style: normal;
 font-weight: 400px;
 line-height: 19px;
 letter-spacing: 0em;
-
-
-  }
-
+}
 
 .pricing_container{
-  width: 100%;
-  display:inline-flex;
+width: auto;
+  display:flex;
+  flex-direction: row;
   align-items: center;
-  justify-content:center;
+  justify-content:flex-start;
+  flex-wrap: wrap;
   
 }
 .flex_container {
-  margin: 10px 78px 10px 10px;
+  margin: auto;
   width: 340px;
   display: ruby-base;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
 .flex_item_1 {
 background-color: #333333;
  margin: auto;
- padding: 15px 144px 8px 144px;;
- border: 1px solid #E5E5E5;
+ padding: 0.938rem 9rem 8px 9rem;
+ border: 0.063rem solid #E5E5E5;
  font-family: Open Sans;
 font-size: 20px;
 font-style: normal;
@@ -69,7 +63,7 @@ color: #FFFFFF;
 }
 .flex_item_2{
  background-color: #333333;
- padding: 26px 135px 33px 144px;
+ padding: 1.5rem 8.438rem 2.063rem 9rem;
  border: 1px solid #E5E5E5;
  font-family: Raleway;
 font-size: 35px;
@@ -82,7 +76,7 @@ color: #FFFFFF;
 }
 .flex_item_3{
   background-color: #333333;
-  padding: 17px 127px 14px 135px;
+  padding: 0.938rem 9rem 8px 9rem;
   border: 1px solid #E5E5E5;
   font-family: Open Sans;
 font-size: 14px;
@@ -94,7 +88,7 @@ text-align: center;
 color: #FFFFFF80 ;
  }
  .list_pricing {
-   padding: 0px;
+   padding: 0rem;
   text-align: center;
   background-color: #E5E5E5;
   list-style-type: none;
@@ -103,7 +97,7 @@ color: #FFFFFF80 ;
  .list_item{
 width: 340px;
 height: 40px;
-margin: 4px 0px 4px 0px;
+margin: 0.25rem 0rem 0.25rem 0rem;
 color: #868788;
 background-color: white;
 font-family: Open Sans;

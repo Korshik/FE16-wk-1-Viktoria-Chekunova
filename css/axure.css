@@ -1,6 +1,7 @@
 .modern_axure{
   width: 1170px;
   margin:0 auto;
+  
 }
 .axure_header{
   font-family: Roboto;
@@ -65,14 +66,18 @@ letter-spacing: 0em;
 padding: 35px;
 color: #FFFFFF;
 z-index: 4;
-}  
-  .axure_background{
-   position: relative; 
-   align-content: center;
-   width: 100%;
-  }
+} 
 
-  
+  .axure_background{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 1170px;
+    margin:0 auto;
+    position: relative; 
+    align-content: center;
+    background-size:cover;
+  }
+ 
   .axure_download{
     position: absolute;
     top: 80%;
@@ -93,4 +98,4 @@ z-index: 4;
   letter-spacing: 0em;
 
   }
-  
+ 

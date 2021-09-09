@@ -1,31 +1,25 @@
 
 .header_container{
-width: 1170px;
+  margin: 0 auto;
+max-width: 1170px;
 background: #000000;
-margin:0 auto;
 display: flex;
 justify-content:space-between;
 flex-direction: row;
-flex-wrap: nowrap;
+flex-wrap: wrap;
 
 }
 .logo{
-  
-  padding-top: 20px;
-  padding-left: 110px;
-  padding-right: 0%;
-  padding-bottom: 19px;
+  padding-top: 1.25rem;
+  padding-left: 6.875rem;
+  padding-bottom: 1.188rem;
 }
 .menu{
 align-self:center;
-top: 20px;
-width: auto;
-
 }
 
 .menu_list {
-  padding-right: 40px;
-  
+  width:30.625rem ;
   }
   .menu_list li {
 
@@ -37,12 +31,12 @@ font-weight: 600;
 line-height: 20px;
 letter-spacing: 0em;
 text-align: center;
-padding-right: 20px;
+
  }
 .menu_link:after {
       content: "";
       display: block;
-      border-bottom: 2px solid #EC7979;
+      border-bottom: 0.125rem solid #EC7979;
       width: 0%;
       transition: width 0.7s;
       
@@ -51,7 +45,7 @@ padding-right: 20px;
 .menu_link {
   color:rgba(255, 255, 255, 0.7);
   text-decoration:none;
-  margin: 0 20px;
+  margin: 0 1.25rem;
     }
    
   
