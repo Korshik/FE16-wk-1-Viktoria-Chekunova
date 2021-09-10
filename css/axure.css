@@ -33,9 +33,7 @@ transform: translate(-50%, -50%);
 color: white;
 z-index: 4;
 }
-.color_text{
- color: #EC7979;
-}
+
 .axure_line{
   position: absolute;
   transform: translate(-50%, -50%);

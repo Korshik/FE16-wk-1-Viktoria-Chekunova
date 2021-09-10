@@ -18,21 +18,18 @@
   
   <header> 
 <div class="header_container">
-
-  <div class="logo"><img src="img/logo.png" alt="logo"></div>
+<div class="header_content">
+  <div class="header_logo"><img src="img/logo.png" alt="logo"></div>
   <nav class="menu">
-    <ul class="menu_list">
-      <li><a href="" class="menu_link">Feautures</a></li>
-      <li><a href=""class="menu_link">About </a></li>
-      <li><a href=""class="menu_link">Pricing</a></li>
-      <li><a href=""class="menu_link">Reviews </a></li>
-      <li><a href=""class="menu_link">Contact</a></li>
-
-    </ul>
-  </nav>
-
+    <a class="menu_item" href="#">Feautures</a>
+        <a class="menu_item" href="#awesomeBlock">About</a>
+        <a class="menu_item" href="#pricingBlock">Pricing</a>
+        <a class="menu_item" href="#customersBlock">Reviews</a>
+        <a class="menu_item" href="#contactUsBlock">Contact</a>
+      </nav>
+</div><!--header_content-->
 </div><!--header_container-->
-  </header>
+</header>
   <!--Modern axure-->
   <div class="modern_axure">
     <section class="axure">
@@ -44,29 +41,43 @@
 <p class="axure_mask"></p>
 <h3 class="axure_subheader">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</h3>
 <a href="page/new.html" class="axure_download">Download</a> 
-<div class="form_container">
-<form action="index.html" name="free_trial" method="post">
-   <div class="form_trial_container">       
+
+<div class="axure_form_container">
   <span>Try Your <span class="color_text">FREE</span> Trial Today</h2>
-  <label for="name"></label>
-          <input type="text1" placeholder="Name" name="name" required> <br>
+  <form action="action_page.php">
+    
+    <div class="row">
+    
+      <div class="col-25">
+        <input type="text1" id="name" name="name1" placeholder="Name">
+      </div>
+    </div>
+    <div class="row">
+     
+      <div class="col-25">
+        <input type="email1" id="email" placeholder="Email" name="email1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <input type="password1" id="password"  placeholder="Password" name="password1">
+    </div>
+    
+    <div class="row">
+  
+      <input type="submit" value="Submit">
+      
+    </div>
+  </form>
+</div>
 
-          <label for="mail"></label>
-          <input type="email1" placeholder="Email" name="email"> <br>
 
-          <label for="password"></label>
-          <input type="password1" placeholder="Password" name="password">
-        
-          <div class="full-width-button">
-          <button type="submit" class="registerbtn">Get Started</button></div>
-   </div>
-        </form>
-      </div><!--form_container-->
       </div>
       </div>
       </div>
     </section>
   </div>
+
   <!--SOCIAL -->
   <header>
     <div class="social_media_container">
