@@ -1,5 +1,5 @@
 .customers{
-  max-width: 1170px;
+  width: 100%;
   margin: auto;
 }
 
@@ -40,7 +40,7 @@ font-style: normal;
 font-weight: 25rem;
 line-height: 1.125rem;
 letter-spacing: 0em;
-margin: 0 5px;
+margin: 0 0.313rem;
 }
 .border_flex_customers{
   width: 298px;
@@ -98,4 +98,263 @@ line-height: 1.188rem;
 letter-spacing: 0em;
 text-align: right;
 padding-bottom: 1.875rem;
+}
+@media screen and (max-width: 991px){
+  .customers{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .our_customers_header{
+  font-size: 2em;
+  }
+  .our_customers_subheader{
+  font-size: 1.37rem;
+  font-style: normal;
+  font-weight: 25rem;
+  line-height: 1.588rem;
+  letter-spacing: 0.2em;
+  padding: 1.88rem;
+  text-align: center;
+  opacity: .5;
+  }
+  .flex_customers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+  }
+  .flex_customers_item{
+  font-size: 1.3rem;
+  font-weight: 25rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.01em;
+  
+  }
+
+  .border_flex_customers{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:#E2E2E2;
+    border-radius: 29%;
+  }
+  .rectangle{
+    position:relative;
+    background: #E2E2E2;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    margin-right: 7rem;
+    margin-top: -0.93rem;
+    top: 0.625rem;
+  }
+  
+  .jeremy_flex_container{
+    padding-top: 0.6rem;
+    padding-bottom: 0.25rem;
+  }
+  .jeremy_flex_item{
+    width: 212px;
+    padding: 0.938rem;
+  }
+  .jeremy_img{
+    float: left;
+    margin-right: 2,5rem;
+  }
+  .name{
+    font-size: 1.25rem;
+    line-height: 1.688rem;
+    letter-spacing: 0.05em;
+    float: right;
+  }
+  .profession{
+    
+    font-size: 1.19rem;
+    line-height: 0.088rem;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-bottom: 1.875rem;
+    
+  }
+}
+@media screen and (max-width: 767px) {
+  .customers{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .our_customers_header{
+  font-size: 2em;
+  }
+  .our_customers_subheader{
+  font-size: 1.37rem;
+  font-style: normal;
+  font-weight: 25rem;
+  line-height: 1.588rem;
+  letter-spacing: 0.2em;
+  padding: 1.88rem;
+  text-align: center;
+  opacity: .5;
+  }
+  .flex_customers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+  }
+  .flex_customers_item{
+  font-size: 1.3rem;
+  font-weight: 25rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.01em;
+  
+  }
+
+  .border_flex_customers{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:#E2E2E2;
+    border-radius: 34%;
+  }
+  .rectangle{
+    position:relative;
+    background: #E2E2E2;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    margin-right: 7rem;
+    margin-top: -0.93rem;
+    top: 0.625rem;
+  }
+  
+  .jeremy_flex_container{
+    padding-top: 0.6rem;
+    padding-bottom: 0.25rem;
+    margin-top: 1%;
+  }
+  .jeremy_flex_item{
+    width: 212px;
+    padding: 0.938rem;
+  }
+  .jeremy_img{
+    float: left;
+    margin-right: 2,5rem;
+  }
+  .name{
+    font-size: 1.25rem;
+    line-height: 1.688rem;
+    letter-spacing: 0.05em;
+    float: right;
+  }
+  .profession{
+    
+    font-size: 1.19rem;
+    line-height: 0.088rem;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-bottom: 1.875rem;
+    
+  }
+}
+@media screen and (max-width: 479px){
+  .customers{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .our_customers_header{
+  font-size: 2em;
+  text-align: center;
+  }
+  .our_customers_subheader{
+  font-size: 1.37rem;
+  font-style: normal;
+  font-weight: 25rem;
+  line-height: 1.588rem;
+  letter-spacing: 0.1em;
+  padding: 1.88rem;
+  text-align: center;
+  opacity: .5;
+  }
+  .flex_customers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+  }
+  .flex_customers_item{
+  font-size: 1.3rem;
+  font-weight: 25rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.01em;
+  width: -2px;
+  }
+
+  .border_flex_customers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:#E2E2E2;
+    border-radius: 29%;
+    margin-left: 11%;
+    margin-bottom: 21%;
+  }
+  .rectangle{
+    position:relative;
+    background: #E2E2E2;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    margin-right: 7rem;
+    margin-top: -0.93rem;
+    top: 0.625rem;
+  }
+  
+  .jeremy_flex_container{
+    padding-top: 0.6rem;
+    padding-bottom: 0.25rem;
+    margin-top: -145%;
+    margin-bottom: 60%;
+    width: 100%;
+  }
+  .jeremy_flex_item{
+    width: 212px;
+    padding: 0.938rem;
+    MARGIN-BOTTOM: 29%;
+    width: 51%;
+  }
+  .jeremy_img{
+    float: left;
+    margin-right: 2,5rem;
+  }
+  .name{
+    font-size: 1.25rem;
+    line-height: 1.688rem;
+    letter-spacing: 0.05em;
+    float: right;
+  }
+  .profession{
+    
+    font-size: 1.19rem;
+    line-height: 0.088rem;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-bottom: 1.875rem;
+    
+  }
 }

@@ -109,3 +109,73 @@ letter-spacing: 0em;
 text-align: center;
 
  }
+ @media screen and (max-width: 991px){
+  .container{
+    max-width: 1170px;
+    margin: auto;
+  }
+   .pricing_header {
+    text-align: center;
+    font-size: 2.75em;
+  }
+  .pricing_subheader{
+  padding: 1.188rem;
+  opacity: .5;
+  font-family: Open Sans;
+  font-weight: 400px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-size: 1.35em;
+  }
+  
+  .flex_item_1 {
+  background-color: #333333;
+  margin: auto;
+  padding: 0.938rem 9rem 8px 9rem;
+  border: 0.063rem solid #E5E5E5;
+  font-family: Open Sans;
+  font-size: 2em;
+  font-style: normal;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .flex_item_2{
+   font-size: 2.5em;
+   font-weight: 700px;
+  }
+  .flex_item_3{
+    background-color: #333333;
+    padding: 0.838rem 9rem 8px 9rem;
+    border: 1px solid #E5E5E5;
+    font-family: Open Sans;
+    font-size: 1.6em;
+    font-weight: 600px;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    text-align: start;
+    color: white;
+   }
+   .list_pricing {
+     padding: 0rem;
+    text-align: center;
+    background-color: #E5E5E5;
+    list-style-type: none;
+    
+   }
+   .list_item{
+  width: 340px;
+  margin: 0.5rem 0rem 0.25rem 0rem;
+  color: #626263;
+  background-color: white;
+  font-family: Open Sans;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  }
+ }
