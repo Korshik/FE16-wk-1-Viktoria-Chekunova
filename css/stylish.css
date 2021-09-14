@@ -250,7 +250,8 @@ letter-spacing: 0em;
   }
   
   .stylish_subheader{
-  font-size: 1.26em;
+  font-size: 1.1em;
+  top: 55%;
   }
   .stylish_container{
     top: 0px;
@@ -286,6 +287,7 @@ letter-spacing: 0em;
     padding: 0.3rem 1.5rem;
     border: 0.2rem solid #FFFFFF;
     font-size: 1.25rem;
+    top: 90%;
   }
   
     .profession{
