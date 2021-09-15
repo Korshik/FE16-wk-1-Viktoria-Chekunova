@@ -18,54 +18,64 @@
   
   <header> 
 <div class="header_container">
-
-  <div class="logo"><img src="img/logo.png" alt="logo"></div>
+<div class="header_content">
+  <div class="header_logo"><img src="img/logo.png" alt="logo"></div>
   <nav class="menu">
-    <ul class="menu_list">
-      <li><a href="" class="menu_link">Feautures</a></li>
-      <li><a href=""class="menu_link">About </a></li>
-      <li><a href=""class="menu_link">Pricing</a></li>
-      <li><a href=""class="menu_link">Reviews </a></li>
-      <li><a href=""class="menu_link">Contact</a></li>
-
-    </ul>
-  </nav>
-
+    <a class="menu_item" href="#">Feautures</a>
+        <a class="menu_item" href="#awesomeBlock">About</a>
+        <a class="menu_item" href="#pricingBlock">Pricing</a>
+        <a class="menu_item" href="#customersBlock">Reviews</a>
+        <a class="menu_item" href="#contactUsBlock">Contact</a>
+      </nav>
+</div><!--header_content-->
 </div><!--header_container-->
-  </header>
+</header>
   <!--Modern axure-->
-  <div class="modern_axure">
-    <section class="axure">
-      <div class="axure_backgraund_cover"></div>
-      <div class="axure_background"> <img src="img/background-axit.png" width="1170px" alt="city">
-<h3 class="axure_header">AX<span class="color_text">IT</span></h3>
-<p class="axure_text">MODERN AXURE TEMPLATE <br> FOR BEAUTIFUL PROTOTYPES</p>
-<div class="axure_line"></div>
-<p class="axure_mask"></p>
-<h3 class="axure_subheader">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</h3>
-<a href="page/new.html" class="axure_download">Download</a> 
+  
+<section class="axure_container">
+  <div class="axure_row">
+    <div class="colm_media">
+    <h1 class="axure_header">AX<span class="axure_letters">IT</span></h1>
 
-<form action="index.html" name="free_trial" method="post">
-   <div class="form_trial_container">       
+<h3 class="axure_text">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</h3>
+<p class="axure_line"></p>
+<p class="axure_subheader">MODERN AXURE TEMPLATE <br> FOR BEAUTIFUL PROTOTYPES</p>
+<a href="page/new.html" class="axure_btn">Download</a> 
+</div><!--column media--->
+<div class="axure_form_container"><h2 class="form_text">
   <span>Try Your <span class="color_text">FREE</span> Trial Today</h2>
-  <label for="name"></label>
-          <input type="text1" placeholder="Name" name="name" required> <br>
+  <form action="action_page.php">
+    
+    <div class="row">
+    
+      <div class="col-25">
+        <input type="text1" id="name" name="name1" placeholder="Name">
+      </div>
+    </div>
+    <div class="row">
+     
+      <div class="col-25">
+        <input type="email1" id="email" placeholder="Email" name="email1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <input type="password1" id="password"  placeholder="Password" name="password1">
+    </div>
+    
+    <div class="row">
+  
+      <input type="submit" value="Submit">
+      
+    </div>
+  </form>
+</div>
 
-          <label for="mail"></label>
-          <input type="email1" placeholder="Email" name="email"> <br>
+</div> <!--axure_row-->
+</section><!--axure_container-->
 
-          <label for="password"></label>
-          <input type="password1" placeholder="Password" name="password">
-        
-          <div class="full-width-button">
-          <button type="submit" class="registerbtn">Get Started</button></div>
-   </div>
-        </form>
-      </div>
-      </div>
-      </div>
-    </section>
-  </div>
+   
+  
   <!--SOCIAL -->
   <header>
     <div class="social_media_container">
@@ -232,18 +242,18 @@
 </div> <!--закрывает jeremy_flex_container-->
 
 </section> <!--закрывает section class="our_customers"--->
-
-<section class="stylish"> 
-<div class="stylish_container"><div class="stylish_cover"></div>
- 
-  <div class="stylish_background"> <img src="img/stylish_background.png" width=1170px height=326px alt="buildins"></div>
-  <h2 class="stylish_header">STYLISH AXURE DESIGN</h2>
-  <div class="stylish_line">
-  </div>
-  <h3 class="stylish_subheader">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h3>
-  <a href="page/new.html" class="stylish_download">Download</a> </div>
-</section> <!--закрывает section class="stylish"-->
 </div> <!--закрывает div class="customers"-->
+<section class="stylish"> 
+  <div class="stylish_container"><div class="stylish_cover"></div>
+   
+    <div class="stylish_background"> <img src="img/stylish_background.png"  alt="buildins"></div>
+    <h2 class="stylish_header">STYLISH AXURE DESIGN</h2>
+    <div class="stylish_line">
+    </div>
+    <h3 class="stylish_subheader">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h3>
+    <a href="page/new.html" class="stylish_download">Download</a> </div>
+  </section> <!--закрывает section class="stylish"-->
+  
 
 <div class="contact_info">
   <section class="contact">
