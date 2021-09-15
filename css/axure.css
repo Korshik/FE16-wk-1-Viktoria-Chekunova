@@ -52,7 +52,15 @@
   border-bottom: 2px solid #FFFFFF;
   width: 64px;
 }
-.axure_subheader{position: absolute;top: 36em;left: 14.17em;transform: translate(-50%, -50%);color: white;text-align: left;font-family: Open Sans;font-size: 14px;font-style: normal;font-weight: 500;line-height: 19px;letter-spacing: 0em;padding: 35px;color: #FFFFFF;} 
+.axure_subheader{
+  position: absolute;
+  top: 36em;
+  left: 14.17em;
+  transform: translate(-50%, -50%);
+  color: white;text-align: left;
+  font-family: Open Sans;font-size: 14px;font-style: normal;font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;padding: 35px;color: #FFFFFF;} 
   .axure_btn{
     position: absolute;
     top: 41em;
@@ -74,40 +82,109 @@
   }
  .axure_letters{
    color: #EC7979;
- }
-@media screen and (max-width: 991px)  {
- h1.axure_header {
-  font-size: 4em;
-  top: 5%;
-  left: 50%;
 }
-
-.axure_text{
-  text-align: center;
-  font-size: 2em;
-  top: 18%;
-  left: 50%;
+ @media (max-width: 767px)  {
+ 
+  .axure_container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)),
+    url("../img/background-axit.png")no-repeat center;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    position:relative;
+    color:#fff;
+    overflow: hidden;
   }
-   .axure_line{
-     font-size: 30px;
-     top: 27%;
-     left: 50%;
-}
-.axure_subheader{
-  text-align: center;
-  font-size: 1.7rem;
-  top: 36%;
-  left: 50%;
-  line-height: 1.1;
-}
-.axure_btn{
-  font-size: 30px;
-  top: 49%;
-  left: 50%;
-  padding: 0.6rem 1.7rem;
-}
+  .axure_header{
+    font-family: Roboto;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .axure_text{
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    text-align: center;
+    width: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .axure_line{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 2px solid #FFFFFF;
+    width: 64px;
+  }
+  
+  .axure_subheader{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    padding: 35px;
+    color: #FFFFFF;
+    } 
+  
+    .axure_btn{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      padding: 0.5rem 1.5rem;
+      text-decoration: none;
+      border: 0.15em solid #FFFFFF;
+      border-radius: 3px;
+      z-index: 4;
+      font-family: Open Sans;
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+    }
+   .axure_letters{
+     color: #EC7979;
+   }
  } 
- @media screen and (max-width: 479px){
+
+ @media (min-width: 768px) and (max-width: 991px){
   h1.axure_header {
     font-size: 4em;
     top: 5%;
@@ -134,40 +211,134 @@
   }
   .axure_btn{
     font-size: 30px;
-    top: 49%;
+    top: 47%;
     left: 50%;
     padding: 0.6rem 1.7rem;
   }
  }
- @media screen and (max-width: 479px){
+ @media (min-width: 992px) and (max-width: 1199px) {
   h1.axure_header {
-    font-size: 4em;
-    top: 5%;
-    left: 50%;
+   font-size: 6.5em;
+   top: 23%;
+   left: 26%;
+ }
+ 
+ .axure_text{
+   text-align: left;
+   font-size: 2.2em;
+   top: 43%;
+   left: 34%;
+   }
+    .axure_line{
+      font-size: 30px;
+      top: 50%;
+      left: 17.5%;
+ }
+ .axure_subheader{
+   text-align: left;
+   font-size: 1.7rem;
+   top: 55%;
+   left: 30%;
+   line-height: 1.1;
+ }
+ .axure_btn{
+   font-size: 34px;
+   top: 69%;
+   left: 24%;
+   padding: 1rem 2rem;
+ }
+  } 
+  @media (min-width: 1200px) {
+    .axure_container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)),
+    url("../img/background-axit.png")no-repeat center;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    position:relative;
+    color:#fff;
+    overflow: hidden;
+  }
+  .axure_header{
+    font-family: Roboto;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 7%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .axure_text{
+    font-family: Raleway;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 44%;
+    left: 26.6%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
   
-  .axure_text{
+  .axure_line{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
     text-align: center;
-    font-size: 2em;
-    top: 18%;
-    left: 50%;
-    }
-     .axure_line{
-       font-size: 30px;
-       top: 27%;
-       left: 50%;
+    top: 37%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border-bottom: 2px solid #FFFFFF;
+    width: 4rem;
   }
   .axure_subheader{
-    text-align: center;
-    font-size: 1.5rem;
-    top: 36%;
-    left: 50%;
-    line-height: 1.1;
+    position: absolute;
+    top: 29%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding: 35px;
+    color: #FFFFFF;
+    } 
+    .axure_btn{
+      position: absolute;
+      top: 25em;
+      left: 13.1rem;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      padding: 0.5rem 1.5rem;
+      text-decoration: none;
+      border: 0.15em solid #FFFFFF;
+      border-radius: 3px;
+      z-index: 4;
+      font-family: Open Sans;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+    }
+   .axure_letters{
+     color: #EC7979;
   }
-  .axure_btn{
-    font-size: 30px;
-    top: 49%;
-    left: 50%;
-    padding: 0.6rem 1.7rem;
-  }
- }
+}
