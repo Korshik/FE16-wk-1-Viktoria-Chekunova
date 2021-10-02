@@ -1,0 +1,318 @@
+
+.stylish_header{
+  font-family: Raleway;
+  font-size: 2.25em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 4;
+}
+
+.stylish_subheader{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;text-align: center;font-family: Open Sans;font-size: 1.05rem;font-style: normal;font-weight: 400;line-height: 1.22rem;letter-spacing: 0em;padding: 35px;color: #FFFFFF;z-index: 4;}
+.stylish_container{
+  top: 0px;
+  max-width: 1170px;
+  margin:0 auto;
+position: relative;
+
+}
+.stylish_line{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 4;
+  border-bottom: 2px solid #FFFFFF;
+  width: 64px;
+  
+}
+.stylish_background{
+ 
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  align-content: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.stylish_cover{
+  background: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+  z-index: 3;
+  }
+
+.stylish_download{
+  font-size: 1rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 0.6rem 1.6rem;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  z-index: 4;
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+  .profession{
+    opacity: .3;
+  }
+
+
+
+
+  @media (max-width: 767px){.stylish_header{
+    font-family: Raleway;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 4;
+    text-align: center;
+  }
+  .stylish_subheader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.0rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  padding: 35px;
+  color: #FFFFFF;
+  z-index: 4;
+  }
+  .stylish_container{
+    top: 0px;
+    max-width: 1170px;
+    margin:0 auto;
+  position: relative;
+  
+  }
+  .stylish_line{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 4;
+    border-bottom: 2px solid #FFFFFF;
+    width: 64px;
+  }
+  .stylish_background{
+    width: 100%;
+    position: relative;
+    align-content: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .stylish_cover{
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+    }
+  
+  .stylish_download{
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 0.6rem 1.6rem;
+    text-decoration: none;
+    border: 0.15rem solid #FFFFFF;
+    border-radius: 3px;
+    z-index: 4;
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+  
+    .profession{
+      opacity: .3;
+    }}
+    @media (min-width: 768px) and (max-width: 991px) {
+
+    .stylish_header{
+      font-family: Raleway;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0em;
+      color: #FFFFFF;
+      position: absolute;
+      top: 18%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      color: white;
+      z-index: 4;
+    }
+    
+    .stylish_subheader{
+    font-size: 1.3rem;
+    }
+    .stylish_container{
+      top: 0px;
+      max-width: 1170px;
+      margin:0 auto;
+    position: relative;
+    
+    }
+    .stylish_line{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      top: 41%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      z-index: 4;
+      border-bottom: 2px solid #FFFFFF;
+      width: 64px;
+    }
+    .stylish_background{
+      width: 100%;
+      position: relative;
+      align-content: center;
+      background-size: cover;
+      overflow: hidden;
+    }
+    .stylish_cover{
+      background: rgba(0, 0, 0, 0.55);
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      bottom: 5px;
+      left: 0px;
+      right: 0px;
+      z-index: 3;
+      }
+    
+    .stylish_download{
+      padding: 0.8rem 1.9rem;
+      border: 0.2rem solid #FFFFFF;
+      font-size: 1.25rem;
+    }
+    
+      .profession{
+        opacity: .6;
+      }
+  }
+  @media (min-width: 1200px){
+    .stylish_header{
+      text-align: center;
+      top: 17%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      FONT-SIZE: 1.9rem;
+      font-weight: 600;
+    }
+    
+    .stylish_subheader{
+    font-size: 1.52em;
+    top: 49%;
+    line-height: 1.3rem;
+    }
+    .stylish_container{
+      top: 0px;
+      max-width: 100%;
+      margin:0 auto;
+      position: relative;
+      MARGIN-TOP: 0%;
+    }
+    .stylish_line{
+      top: 39%;
+      left: 50%;
+      width: 8%;
+    }
+    .stylish_background{
+      width: 100%;
+      position: relative;
+      align-content: center;
+      background-size: cover;
+      overflow: hidden;
+    }
+    .stylish_cover{
+      background: rgba(0, 0, 0, 0.55);
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      bottom: 5px;
+      left: 0px;
+      right: 0px;
+      z-index: 3;
+      }
+    
+    .stylish_download{
+      padding: 0.3rem 1.5rem;
+      border: 0.2rem solid #FFFFFF;
+      font-size: 1.45rem;
+      top: 81%;
+    }
+    
+      .profession{
+        opacity: .5;
+        font-size: 1.2rem;
+      }
+  }

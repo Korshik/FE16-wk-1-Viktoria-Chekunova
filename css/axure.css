@@ -1,0 +1,669 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.axure{
+	background: url("../img/background-axit.png") no-repeat top center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	position:relative;
+	height:100vh;
+	color:#fff;
+	overflow: hidden;
+	}
+  .axure .cover{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+.axure_container {
+  display: grid;
+  padding-top: 109px;
+  padding-left: 110px;
+  padding-right: 111px;
+  grid-template-areas:
+    'axure_header form_header'
+    'axure_subheader form-control-name'
+    'axure_line form-control-email'
+    'axure_text form-control-password'
+    'axure_btn button';
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  row-gap: 2rem;
+  
+  grid-template-columns: repeat( 2, minmax(500px, 1fr) );
+}
+  
+  .axure_header { grid-area: axure_header;
+    align-self: stretch; 
+    height: 70px; 
+    font-family: "Raleway";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    
+     }
+     .axure_header span {
+      font-weight: bold;
+      color: #EC7979;}
+
+  .axure_subheader {
+    grid-area: axure_subheader;
+    align-self: start;
+    height: 99px;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    }
+  
+  .axure_line {
+    grid-area: axure_line;
+    width: 4rem;
+    margin-top: 60px;
+    border-bottom: 2px solid #FFFFFF;
+    }
+  
+  .axure_text {
+    grid-area: axure_text;
+    color: rgba(206, 195, 195, 0.87);
+    font-size: 22px;
+  }
+  
+  .axure_btn {
+    align-self: start; 
+    grid-area: axure_btn; 
+    width: 135px; 
+    height: 42px;
+    background: transparent;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .axure_form {
+    justify-self: self-end;
+    width:370px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .form_header {
+  margin-top: 15px;
+  font-family: "Open Sans";
+  color: #333333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+   }
+   .form_header span {
+    font-weight: bold;
+    color: #EC7979;
+}
+  .form-control-name {
+    width: 252px;
+    margin-top: 55px;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 57px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+   }
+  
+  .form-control-email {
+    width: 252px;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 57px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    }
+  
+  .form-control-password {
+    width: 252px;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    }
+  
+  .button { 
+    width: 100%;
+    background-color: #EC7979;
+    margin-top: 36px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+   }
+  
+
+ @media (max-width: 767px)  {
+  .axure_container {
+    display: grid;
+    padding-top: 80px;
+    padding-left: 8px;
+    padding-right: 70px;
+    grid-template-areas:
+      'axure_header axure_header'
+      'axure_subheader axure_subheader'
+      'axure_line axure_line'
+      'axure_text axure_text'
+      'axure_btn axure_btn';
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    row-gap: 1.5rem;
+    grid-template-columns: repeat( 2, minmax(489px, 1fr) );
+    margin-top: -7%;
+  }
+  .axure_header {
+    grid-area: axure_header;
+    height: 70px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 71px;
+    margin-left: -39%;
+    margin-top: 0%;
+    }
+     .axure_subheader {
+      grid-area: axure_subheader;
+      font-family: "Raleway";
+      font-size: 35px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 41px;
+      letter-spacing: 0em;
+      margin-right: 412px;
+      margin-top:1%;
+      }
+    
+    .axure_line {
+      grid-area: axure_line;
+      width: 4rem;
+      margin-top: 60px;
+      margin-left: 27%;
+      margin-top: 1%;
+      border-bottom: 3px solid #FFFFFF;
+      }
+    
+    .axure_text {
+      grid-area: axure_text;
+      text-align: center;
+      width: 50%;
+      margin-left: 41%;
+      color: rgba(206, 195, 195, 0.87);
+      margin-left: 5%;
+      margin-top: -3%;
+      font-size: 27px;
+    }
+    
+    .axure_btn {
+      align-self: start;
+      grid-area: axure_btn;
+      width: 154px;
+      height: 44px;
+      font-size: 21px;
+      background: transparent;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      color: #fff;
+      text-align: center;
+      margin-left: 22%;
+      margin-top: -3%;
+    }
+    .axure_form {
+      justify-self: center;
+      width: 491px;
+      margin-left: 26%;
+      height: fit-content;
+      background-color: #fff;
+      border-radius: 5px;
+      margin-right: 36px;
+    }
+    
+    .form_header {
+    margin-top: 15px;
+    font-family: "Open Sans";
+    color: #333333;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+     .form_header span {
+      font-weight: bold;
+      color: #EC7979;
+  }
+    .form-control-name {
+      width: 418px;
+      font-size: 27px;
+      margin-top: 50px;
+      margin-left: 59px;
+      margin-right: 59px;
+      margin-bottom: 57px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+     }
+    
+    .form-control-email {
+      width: 418px;
+      font-size: 27px;
+      margin-left: 59px;
+      margin-right: 59px;
+      margin-bottom: 57px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+      }
+    
+    .form-control-password {
+      width: 418px;
+      font-size: 27px;
+      margin-left: 55px;
+      margin-right: 43px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+      }
+    
+    .button {
+      width: 100%;
+      background-color: #EC7979;
+      margin-top: 36px;
+      padding: 19px;
+      font-weight: bold;
+      font-size: 30px;
+      border-radius: 5px;
+      color: #fff;
+     }
+  
+ } 
+
+ @media (min-width: 768px) and (max-width: 991px){
+  .axure_container {
+    display: grid;
+    padding-top: 109px;
+    padding-left: 47px;
+    padding-right: 110px;
+    grid-template-areas:
+      'axure_header axure_header'
+      'axure_subheader axure_subheader'
+      'axure_line axure_line'
+      'axure_text axure_text'
+      'axure_btn axure_btn';
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    row-gap: 2rem;
+    grid-template-columns: repeat( 2, minmax(489px, 1fr) );
+  }
+  .axure_header {
+    grid-area: axure_header;
+    height: 70px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 71px;
+    margin-left: -29%;
+    }
+     .axure_subheader {
+      grid-area: axure_subheader;
+      font-family: "Raleway";
+      font-size: 35px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0em;
+      margin-right: 317px;
+      }
+    
+    .axure_line {
+      grid-area: axure_line;
+      width: 4rem;
+      margin-top: 60px;
+      margin-left: 32%;
+      margin-top: 7%;
+      border-bottom: 3px solid #FFFFFF;
+      }
+    
+    .axure_text {
+      grid-area: axure_text;
+      color: rgba(206, 195, 195, 0.87);
+      margin-left: 0%;
+      margin-top: 0%;
+      font-size: 28px;
+    }
+    
+    .axure_btn {
+      align-self: start;
+      grid-area: axure_btn;
+      width: 154px;
+      height: 44px;
+      font-size: 21px;
+      background: transparent;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      color: #fff;
+      text-align: center;
+      margin-left: 28%;
+      margin-top: -3%;
+    }
+    .axure_form {
+      justify-self: center;
+      width: 570px;
+      margin-left: 50%;
+      height: fit-content;
+      background-color: #fff;
+      border-radius: 5px;
+      margin-right: 36px;
+    }
+    
+    .form_header {
+    margin-top: 15px;
+    font-family: "Open Sans";
+    color: #333333;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+     .form_header span {
+      font-weight: bold;
+      color: #EC7979;
+  }
+    .form-control-name {
+      width: 418px;
+      font-size: 27px;
+      margin-top: 55px;
+      margin-left: 59px;
+      margin-right: 59px;
+      margin-bottom: 57px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+     }
+    
+    .form-control-email {
+      width: 418px;
+      font-size: 27px;
+      margin-left: 59px;
+      margin-right: 59px;
+      margin-bottom: 57px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+      }
+    
+    .form-control-password {
+      width: 418px;
+      font-size: 27px;
+      margin-left: 55px;
+      margin-right: 43px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+      }
+    
+    .button {
+      width: 100%;
+      background-color: #EC7979;
+      margin-top: 36px;
+      padding: 19px;
+      font-weight: bold;
+      font-size: 30px;
+      border-radius: 5px;
+      color: #fff;
+     }
+  }
+  
+  
+ @media (min-width: 992px) and (max-width: 1264px) {
+  .axure_container {
+    display: grid;
+    padding-top: 109px;
+    padding-left: 47px;
+    padding-right: 110px;
+    grid-template-areas:
+      'axure_header axure_header'
+      'axure_subheader axure_subheader'
+      'axure_line axure_line'
+      'axure_text axure_text'
+      'axure_btn axure_btn';
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    row-gap: 2rem;
+    grid-template-columns: repeat( 2, minmax(489px, 1fr) );
+  }
+  .axure_header {
+    grid-area: axure_header;
+    height: 70px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 67px;
+  
+    }
+     .axure_subheader {
+      grid-area: axure_subheader;
+      font-family: "Raleway";
+      font-size: 35px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0em;
+      margin-right: 28px;
+      }
+    
+    .axure_line {
+      grid-area: axure_line;
+      width: 4rem;
+      margin-top: 60px;
+      margin-left: 46%;
+      margin-top: 7%;
+      border-bottom: 3px solid #FFFFFF;
+      }
+    
+    .axure_text {
+      grid-area: axure_text;
+      color: rgba(206, 195, 195, 0.87);
+      margin-left: 13%;
+      margin-top: 0%;
+      font-size: 28px;
+    }
+    
+    .axure_btn {
+      align-self: start;
+      grid-area: axure_btn;
+      width: 154px;
+      height: 44px;
+      font-size: 21px;
+      background: transparent;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      color: #fff;
+      text-align: center;
+      margin-left: 42%;
+      margin-top: -3%;
+    }
+    .axure_form {
+      justify-self: center;
+      width: 735px;
+      margin-left: 98%;
+      height: fit-content;
+      background-color: #fff;
+      border-radius: 5px;
+      margin-right: 36px;
+    }
+    
+    .form_header {
+    margin-top: 15px;
+    font-family: "Open Sans";
+    color: #333333;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+     .form_header span {
+      font-weight: bold;
+      color: #EC7979;
+  }
+    .form-control-name {
+      width: 615px;
+      font-size: 27px;
+      margin-top: 55px;
+      margin-left: 59px;
+      margin-right: 59px;
+      margin-bottom: 57px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+     }
+    
+    .form-control-email {
+      width: 615px;
+      font-size: 27px;
+      margin-left: 59px;
+      margin-right: 59px;
+      margin-bottom: 57px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+      }
+    
+    .form-control-password {
+      width: 615px;
+      font-size: 27px;
+      margin-left: 59px;
+      margin-right: 59px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+      }
+    
+    .button {
+      width: 100%;
+      background-color: #EC7979;
+      margin-top: 36px;
+      padding: 19px;
+      font-weight: bold;
+      font-size: 30px;
+      border-radius: 5px;
+      color: #fff;
+     }
+ }
+ 
+ 
+  @media (min-width: 1150px) and (max-width: 1265px) {
+    .axure_container {
+      display: grid;
+      padding-top: 109px;
+      padding-left: 110px;
+      padding-right: 111px;
+      grid-template-areas:
+      'axure_header axure_header'
+      'axure_subheader axure_subheader'
+      'axure_line axure_line'
+      'axure_text axure_text'
+      'axure_btn axure_btn';
+      grid-template-rows: 50px 50px 50px 50px 50px;
+      row-gap: 2rem;
+      grid-template-columns: repeat( 2, minmax(489px, 1fr) );
+    }
+    .axure_header { grid-area: axure_header;
+      align-self: stretch; 
+      height: 70px; 
+      font-family: "Raleway";
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0em;
+      
+       }
+       .axure_subheader {
+        grid-area: axure_subheader;
+        align-self: start;
+        text-align: center;
+        height: 99px;
+        font-family: "Raleway";
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        margin-top: 6%;
+        }
+      
+      .axure_line {
+        grid-area: axure_line;
+        width: 4rem;
+        margin-left: 47%;
+        margin-top: 61px;
+        border-bottom: 2px solid #FFFFFF;
+        }
+      
+      .axure_text {
+        grid-area: axure_text;
+        color: rgba(206, 195, 195, 0.87);
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 3%;
+      }
+      
+      .axure_btn {
+        align-self: start;
+        grid-area: axure_btn;
+        width: 164px;
+        height: 42px;
+        background: transparent;
+        padding: 10px 20px;
+        margin-top: 9px;
+        margin-left: 42%;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+      }
+  }
+  
