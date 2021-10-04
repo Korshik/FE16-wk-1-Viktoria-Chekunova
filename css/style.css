@@ -8,12 +8,7 @@
 @import url(axure.css);
 
 @import url(contact.css);
-.container{
-background: #FFFFFF;
-max-width: 1170px;
-margin: auto;
-padding: 0.938rem;
-}
+.container{background: #FFFFFF;/* max-width: 1170px; */margin: auto;padding: 1.938rem;}
 
  
  .line{

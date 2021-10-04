@@ -31,15 +31,7 @@ line-height: 19px;
 letter-spacing: 0em;
 }
 
-.pricing_container{
-width: auto;
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:flex-start;
-  flex-wrap: wrap;
-  
-}
+.pricing_container{width: 1;display:flex;flex-direction: row;align-items: center;justify-content:flex-start;flex-wrap: wrap;}
 .flex_container {
   margin: auto;
   width: 340px;
