@@ -1,0 +1,133 @@
+.tabs_container {
+  width: 100%;
+  padding-top: 126px;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: -1px 119px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  align-items: center;
+  grid-template-areas:
+    "tab1 tabs_header tabs_pict"
+    "tab2 tabs_text tabs_pict"
+    "tab3 tabs_btn ."
+    ". . .";
+}
+
+.tab1 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #EC7979;
+  justify-self: center;
+  align-self:center;
+  grid-area: tab1;
+  width: 112px;
+  height: 110px;
+  color: #FFFFFF;
+  
+}
+
+.tab2 {
+  padding: 45px 35px;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #333333;
+  justify-self: center; 
+  align-self: center;  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self:center;
+  grid-area: tab2;
+  width: 112px;
+  height: 110px;
+   color: #FFFFFF;
+}
+
+.tab3 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self:center; 
+  grid-area: tab3;
+  width: 112px;
+  height: 110px;
+   color: #FFFFFF;
+}
+
+.tabs_header { grid-area: tabs_header;
+  
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+   }
+
+.tabs_text { grid-area: tabs_text;
+  
+  width: 35,675rem;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  
+   }
+
+.tabs_btn { grid-area: tabs_btn; 
+  
+  width: 135px;
+  background: #EC7979;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  padding:10px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.tabs_pict { grid-area: tabs_pict;
+  padding-left: 50px;
+width: 20rem; }

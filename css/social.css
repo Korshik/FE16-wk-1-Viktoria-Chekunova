@@ -1,10 +1,9 @@
 
 .social_media_container{
   width: 100%;
-background-color: #F8EFEF;
- margin: 0 auto;
- padding-left: 60px;
-
+  background-color: #F8EFEF;
+  margin: 0 auto;
+  padding-left: 60px;
   }
   .social_header{
     width: 50%;
@@ -181,10 +180,9 @@ text-align: left;
   @media (min-width: 1200px){
     .social_media_container{
       width: 100%;
-    background-color: #F8EFEF;
-     margin: 0 auto;
-     padding-left: 60px;
-    
+      background-color: #F8EFEF;
+      margin: 0 auto;
+      padding-left: 60px;
       }
       .social_header{
         width: 50%;

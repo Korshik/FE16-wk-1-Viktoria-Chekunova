@@ -6,7 +6,7 @@
 @import url(social.css);
 @import url(footer.css);
 @import url(axure.css);
-
+@import url(tabs.css);
 @import url(contact.css);
 .container{background: #FFFFFF;/* max-width: 1170px; */margin: auto;padding: 1.938rem;}
 
