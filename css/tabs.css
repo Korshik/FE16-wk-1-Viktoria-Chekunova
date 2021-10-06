@@ -131,3 +131,560 @@
 .tabs_pict { grid-area: tabs_pict;
   padding-left: 50px;
 width: 20rem; }
+@media (max-width: 767px){
+  .tabs_container {
+    width: 100%;
+    padding-top: 126px;
+    display: grid;
+    grid-template-columns: 4.4fr 1fr 1fr;
+    grid-template-rows: 0fr 0fr -0.5fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: center;
+    grid-template-areas:
+        "tab1 tabs_header ."
+        "tab2 tabs_text ."
+        "tab3 tabs_pict ."
+        ". tabs_btn .";
+}
+.tab1 {padding: 45px 35px;font-family: "Open Sans";font-size: 15px;font-style: normal;font-weight: 700;line-height: 20px;letter-spacing: 0em;text-align: justify;background-color: #EC7979;justify-self: center;align-self: end;grid-area: tab1;width: 112px;height: 110px;color: #FFFFFF;}
+
+.tab2 {
+  padding: 45px 35px;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #333333;
+  justify-self: center; 
+  align-self: center;  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self:center;
+  grid-area: tab2;
+  width: 112px;
+  height: 110px;
+   color: #FFFFFF;
+}
+
+.tab3 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self: start;
+  grid-area: tab3;
+  width: 112px;
+  height: 110px;
+  color: #FFFFFF;
+}
+
+.tabs_header { grid-area: tabs_header;
+  
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+   }
+
+.tabs_text {
+  padding: 5px;
+  grid-area: tabs_text;
+  width: 31rem;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  }
+
+.tabs_btn {
+  grid-area: tabs_btn;
+  width: 135px;
+  background: #EC7979;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  padding:10px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 9rem;
+}
+
+.tabs_pict { grid-area: tabs_pict;
+  padding-left: 50px;
+width: 20rem; }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  .tabs_container {
+    width: 100%;
+    padding-top: 126px;
+    display: grid;
+    grid-template-columns: 2.4fr 1fr 1fr;
+    grid-template-rows: 0fr 0fr -0.5fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: center;
+    grid-template-areas:
+        "tab1 tabs_header ."
+        "tab2 tabs_text ."
+        "tab3 tabs_pict ."
+        ". tabs_btn .";
+}
+
+.tab1 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #EC7979;
+  justify-self: center;
+  align-self: flex-end;
+  grid-area: tab1;
+  width: 112px;
+  height: 110px;
+  color: #FFFFFF;
+}
+
+.tab2 {
+  padding: 45px 35px;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #333333;
+  justify-self: center; 
+  align-self: center;  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self:center;
+  grid-area: tab2;
+  width: 112px;
+  height: 110px;
+   color: #FFFFFF;
+}
+
+.tab3 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self: flex-start;
+  grid-area: tab3;
+  width: 112px;
+  height: 110px;
+  color: #FFFFFF;
+}
+
+.tabs_header { grid-area: tabs_header;
+  
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+   }
+
+.tabs_text {
+  
+grid-area: tabs_text;
+  
+width: 33rem;
+  
+font-family: "Open Sans";
+  
+font-size: 25px;
+  
+font-style: normal;
+  
+font-weight: 400;
+  
+line-height: 17px;
+  
+letter-spacing: 0.02em;
+  
+text-align: left;
+  
+text-transform: initial;
+  
+justify-self: center;
+  
+}
+
+.tabs_btn {
+  
+grid-area: tabs_btn;
+  
+width: 135px;
+  
+background: #EC7979;
+  
+border: 1px solid #FFFFFF;
+  
+box-sizing: border-box;
+  
+padding:10px;
+  
+color: #FFFFFF;
+  
+font-family: Open Sans;
+  
+font-size: 15px;
+  
+font-style: normal;
+  
+font-weight: 600;
+  
+line-height: 20px;
+  
+letter-spacing: 0em;
+  
+text-align: center;
+  
+align-self: self-start;
+  
+justify-self: center;
+}
+
+.tabs_pict {grid-area: tabs_pict;padding-left: 107px;align-self: center;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tabs_container {
+  width: 100%;
+  padding-top: 126px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-rows: 0fr 0fr -0.5fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  align-items: center;
+  grid-template-areas:
+    "tab1 tabs_header ."
+    "tab2 tabs_text ."
+    "tab3 tabs_pict ."
+    ". tabs_btn .";
+}
+
+.tab1 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #EC7979;
+  justify-self: center;
+  align-self: flex-end;
+  grid-area: tab1;
+  width: 112px;
+  height: 110px;
+  color: #FFFFFF;
+}
+
+.tab2 {
+  padding: 45px 35px;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #333333;
+  justify-self: center; 
+  align-self: center;  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self:center;
+  grid-area: tab2;
+  width: 112px;
+  height: 110px;
+   color: #FFFFFF;
+}
+
+.tab3 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self: flex-start;
+  grid-area: tab3;
+  width: 112px;
+  height: 110px;
+  color: #FFFFFF;
+}
+
+.tabs_header { grid-area: tabs_header;
+  
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+   }
+
+.tabs_text {
+  
+grid-area: tabs_text;
+  
+width: 38rem;
+  
+font-family: "Open Sans";
+  
+font-size: 24px;
+  
+font-style: normal;
+  
+font-weight: 400;
+  
+line-height: 19px;
+  
+letter-spacing: 0em;
+  
+text-align: left;
+  
+text-transform: capitalize;
+  
+}
+
+.tabs_btn { grid-area: tabs_btn; 
+  
+  width: 135px;
+  align-self: flex-start;
+  background: #EC7979;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  padding:10px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.tabs_pict {
+  grid-area: tabs_pict;
+  padding-left: 50px;
+  width: 79%;
+  }}
+@media screen and (min-width: 1200px){.tabs_container {
+  width: 100%;
+  padding-top: 126px;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: -1px 119px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  align-items: center;
+  grid-template-areas:
+    "tab1 tabs_header tabs_pict"
+    "tab2 tabs_text tabs_pict"
+    "tab3 tabs_btn ."
+    ". . .";
+}
+
+.tab1 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #EC7979;
+  justify-self: center;
+  align-self:center;
+  grid-area: tab1;
+  width: 112px;
+  height: 110px;
+  color: #FFFFFF;
+  
+}
+
+.tab2 {
+  padding: 45px 35px;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #333333;
+  justify-self: center; 
+  align-self: center;  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self:center;
+  grid-area: tab2;
+  width: 112px;
+  height: 110px;
+   color: #FFFFFF;
+}
+
+.tab3 {
+  padding: 45px 35px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justify;
+  background-color: #333333;
+  justify-self: center;
+  align-self:center; 
+  grid-area: tab3;
+  width: 112px;
+  height: 110px;
+   color: #FFFFFF;
+}
+
+.tabs_header { grid-area: tabs_header;
+  
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+   }
+
+.tabs_text { grid-area: tabs_text;
+  
+  width: 35,675rem;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  
+   }
+
+.tabs_btn { grid-area: tabs_btn; 
+  
+  width: 135px;
+  background: #EC7979;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  padding:10px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.tabs_pict { grid-area: tabs_pict;
+  padding-left: 50px;
+width: 20rem; }}
